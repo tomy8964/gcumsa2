@@ -67,6 +67,7 @@
             headers: 
                 [
                     { text: "id", value: "id" },
+                    { text: "world", value: "world" },
                 ],
             world : [],
             newValue: {},
@@ -84,6 +85,7 @@
             this.values = temp.data._embedded.worlds;
 
             this.newValue = {
+                'world': '',
             }
         },
         methods: {

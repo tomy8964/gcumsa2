@@ -37,7 +37,7 @@ mvn spring-boot:run
 ```
 - OutHello
 ```
- http :8088/worlds id="id" 
+ http :8088/worlds id="id" world="world" 
 ```
 
 

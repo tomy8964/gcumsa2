@@ -17,6 +17,7 @@
         </v-card-title >
 
         <v-card-text>
+            <String label="World" v-model="value.world" :editMode="editMode"/>
         </v-card-text>
 
         <v-card-actions>

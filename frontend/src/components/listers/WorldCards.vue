@@ -68,6 +68,7 @@
             me.values = temp.data._embedded.worlds;
             
             me.newValue = {
+                'world': '',
             }
         },
         methods:{

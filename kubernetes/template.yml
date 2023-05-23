@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: InHello
-          image: username/InHello:latest
+          image: hamgeonwook/inhello:latest
           ports:
             - containerPort: 8080
           readinessProbe:

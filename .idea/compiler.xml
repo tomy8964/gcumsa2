@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="OutHello" />
+        <module name="boot-camp-gateway" />
+        <module name="InHello" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boot-camp-gateway" target="1.8" />
+      <module name="InHello" target="11" />
+      <module name="OutHello" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="InHello" options="-parameters" />
+      <module name="OutHello" options="-parameters" />
+      <module name="boot-camp-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

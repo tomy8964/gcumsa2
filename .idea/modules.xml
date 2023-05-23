@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/InHello/InHello.iml" filepath="$PROJECT_DIR$/InHello/InHello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OutHello/OutHello.iml" filepath="$PROJECT_DIR$/OutHello/OutHello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/boot-camp-gateway.iml" filepath="$PROJECT_DIR$/gateway/boot-camp-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/msaez.iml" filepath="$PROJECT_DIR$/.idea/msaez.iml" />
+    </modules>
+  </component>
+</project>
